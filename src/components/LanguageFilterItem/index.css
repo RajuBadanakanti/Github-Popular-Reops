@@ -1,0 +1,62 @@
+/* Write your CSS here */
+.language-item-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+.language-btn-tab {
+  background-color: transparent;
+  height: 40px;
+  min-width: 70px;
+  border: 0px solid;
+  color: #0f172a;
+  font-family: 'roboto';
+  font-size: 20px;
+  font-weight: 510;
+  outline: none;
+  cursor: pointer;
+}
+
+.active-language-btn-tab {
+  border: 2px solid #0284c7;
+  border-radius: 20px;
+  color: #0284c7;
+  font-family: 'roboto';
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* >>>>>>>>>>>>> MOBILE DEVISE >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+@media screen and (max-width: 767px) {
+  /* Write your CSS here */
+  .language-item-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+  }
+  .language-btn-tab {
+    background-color: transparent;
+    height: 25px;
+    min-width: 40px;
+    border: 0px solid;
+    color: #0f172a;
+    font-family: 'roboto';
+    font-size: 12px;
+    font-weight: 505;
+    outline: none;
+    cursor: pointer;
+  }
+
+  .active-language-btn-tab {
+    border: 2px solid #0284c7;
+    border-radius: 15px;
+    color: #0284c7;
+    font-family: 'roboto';
+    font-size: 12px;
+    font-weight: 500;
+  }
+}
